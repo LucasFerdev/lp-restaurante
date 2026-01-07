@@ -25,12 +25,37 @@ $(document).ready(function () {
             const sectionBottom = sectionTop + section.outerHeight();
 
             if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
-                acctivesectionIndex = i;
+                activeSctionIndex = i;
                 return false; 
             }
-        })
+        });
         
         navItems.removeClass('active');
         $(navItems[activeSectionIndex]).addClass('active');
-});
+
+        });
+        ScrollReveal().reveal('#cta',{
+            origin: 'left',
+            duration: 2000,
+            distance: '20%'
+        });
+
+            ScrollReveal().reveal('.dish',{
+            origin: 'left',
+            duration: 2000,
+            distance: '20%'
+        });
+
+        ScrollReveal().reveal('#testimonial_chef',{
+            origin: 'left',
+            duration: 1000,
+            distance: '20%'
+        });
+
+        ScrollReveal().reveal('.feedback',{
+            origin: 'left',
+            duration: 2000,
+            distance: '20%'
+        });
+
 });
