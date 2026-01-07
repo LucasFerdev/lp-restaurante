@@ -25,7 +25,7 @@
 }
 
 body{
-    background-color: #fff9ea
+    background-color: var(--color-primary-1)
 }
 
 section {
@@ -37,7 +37,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffcb45;
+    background-color: var(--color-primary-5);
     border-radius: 12px;
     padding: 10px 14px;
     font-weight: 600;
@@ -47,7 +47,7 @@ section {
 }
 
 .btn-default:hover {
-    background-color: #f8d477;
+    background-color: var(--color-primary-3);
     
 }
 
@@ -63,7 +63,7 @@ section {
     width: 45px;
     height: 40px;
     text-decoration: none;
-    color: #1d1d1d;
+    color: var(--color-neutral-1);
     font-size: 1.25rem;
     transition: color 0.3s ease;
     border-radius: 10px;
@@ -75,7 +75,7 @@ section {
 }
 
 .section-title {
-    color: #e9a209;
+    color: var(--color-primary-6);
     font-size: 1.563rem;
 }
 
